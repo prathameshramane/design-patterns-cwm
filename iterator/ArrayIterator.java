@@ -16,7 +16,7 @@ public class ArrayIterator<T> implements Iterator<T> {
     }
 
     @Override
-    public boolean hasNext() {
+    public boolean isDone() {
         return currentIndex < items.length;
     }
 

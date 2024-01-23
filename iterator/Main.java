@@ -8,7 +8,7 @@ class Main {
         bh.push("url-3");
 
         Iterator<String> it = bh.createIterator();
-        while(it.hasNext()){
+        while(it.isDone()){
             System.out.println(it.current());
             it.next();
         }

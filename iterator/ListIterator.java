@@ -18,7 +18,7 @@ public class ListIterator<T> implements Iterator<T> {
     }
 
     @Override
-    public boolean hasNext() {
+    public boolean isDone() {
         return this.currentIndex < this.size;
     }
 

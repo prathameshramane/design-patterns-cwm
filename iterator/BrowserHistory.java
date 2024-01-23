@@ -41,7 +41,7 @@ public class BrowserHistory {
         }
     
         @Override
-        public boolean hasNext() {
+        public boolean isDone() {
             return this.currentIndex < this.size;
         }
     

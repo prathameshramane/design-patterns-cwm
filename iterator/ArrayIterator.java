@@ -1,7 +1,5 @@
 package iterator;
 
-import java.util.*;
-
 public class ArrayIterator<T> implements Iterator<T> {
     private T[] items;
     private int currentIndex = 0;
